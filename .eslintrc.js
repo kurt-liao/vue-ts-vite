@@ -1,4 +1,5 @@
 require('dotenv').config()
+
 module.exports = {
   root: true,
   env: {
@@ -41,5 +42,5 @@ module.exports = {
     ],
     'prettier/prettier': 'error'
   },
-  ignorePatterns: ['dist']
+  ignorePatterns: ['dist', '.*']
 }
