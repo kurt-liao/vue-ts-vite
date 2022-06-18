@@ -12,6 +12,6 @@ export default defineConfig({
   },
   plugins: [vue(), Components({
     dirs: ["src/components"],
-    dts: "src/components.d.ts"
+    dts: true
   })]
 })
