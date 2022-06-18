@@ -10,8 +10,10 @@
     "postinstall": "husky install"
   },
   "dependencies": {
+    "@vueuse/core": "^8.7.4",
     "dotenv": "^16.0.1",
     "pinia": "^2.0.14",
+    "unplugin-icons": "^0.14.5",
     "vue": "^3.2.25",
     "vue-router": "^4.0.16"
   },
